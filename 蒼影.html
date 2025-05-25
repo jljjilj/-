@@ -1,0 +1,119 @@
+// Bar 蒼影 - Aokage 紹介サイト（幻想的な背景修正版）
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bar 蒼影 - Aokage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000000;
+      background-image:
+        radial-gradient(circle at 30% 20%, rgba(255,255,255,0.08), transparent 40%),
+        radial-gradient(circle at 70% 80%, rgba(255,255,255,0.06), transparent 40%),
+        repeating-linear-gradient(45deg, rgba(192,192,192,0.03) 0px, transparent 2px, transparent 30px);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: silver;
+    }
+    body {
+  background-image: url('aokage-background-extracted.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+    header, section, footer {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h1, h2 {
+      color: silver;
+      text-shadow: 0 0 12px rgba(192, 192, 192, 0.3);
+    }
+    .card {
+      background: rgba(0, 0, 0, 0.5);
+      border: 1px solid silver;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 16px rgba(173, 216, 230, 0.15);
+    }
+    .button {
+      border: 1px solid silver;
+      color: silver;
+      background: transparent;
+      padding: 0.5rem 1rem;
+      margin-right: 1rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .button:hover {
+      background: #1e3a8a;
+    }
+    img.logo {
+      width: 150px;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem;
+      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo-aokage.png" alt="Bar 蒼影 ロゴ" class="logo" />
+    <h1>Bar 蒼影 - Aokage</h1>
+    <p>深い蒼と静寂の中に、語らいと安らぎを。八王子の夜にひっそりと灯る、幻想的な空間。</p>
+  </header>
+
+  <section class="card">
+    <h2>System（料金・システム）</h2>
+    <p>
+      ・入店チャージなし<br>
+      ・1時間飲み放題・ダーツ投げ放題・カラオケ歌い放題 2300円
+      ・営業時間：19:00 ～ 翌4:00（火曜定休）<br>
+      ・カラオケ / ダーツ / シーシャ（別料金）あり<br>
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>メニュー</h2>
+    <ul>
+      <li>・推し色カクテル - 800円～</li>
+      <li>・ショット各種 - 400円～</li>
+      <li>・シーシャ - 2,000円～</li>
+      <li>・おつまみ盛り合わせ - 400円～</li>
+    </ul>
+  </section>
+
+
+
+  <section class="card">
+    <h2>アクセス</h2>
+    <p>
+      〒192-0083 東京都八王子市〇〇〇〇<br>
+      JR八王子駅 徒歩4分<br>
+      ※Google Mapを後日追加予定
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>コンタクト</h2>
+    <p>ご予約・お問い合わせは以下のSNSから</p>
+    <a class="button" href="https://www.instagram.com/bar_aokage?igsh=OXBqdmwxdjQ2NXRl&utm_source=qr" target="_blank">Instagram</a>
+    <a class="button" href="https://x.com/BAR_aokage" target="_blank">Twitter</a>
+  </section>
+
+  <footer>
+    <p style="text-align: center; font-size: 0.8rem; color: silver;">&copy; 2025 Bar 蒼影 - Aokage. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
